@@ -1,0 +1,22 @@
+.default-area {
+  background: rgb(221, 221, 221);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.btn-area {
+  margin-top: 10px;
+
+  .add-card {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+.card-single {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .btn-click {
+    margin-right: 10px;
+  }
+
+  .show-card-index {
+    color: #A3BAC3;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .show-number {
+    margin-bottom: 30px;
+    color: #6A7152;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+}

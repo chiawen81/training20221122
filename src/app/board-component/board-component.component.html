@@ -1,0 +1,11 @@
+<div class="card-single" [ngStyle]="{'background-color': (this.cardIndex % 2 === 0) ? '#133EFF':'#FFF200'}">
+  <div class="show-card-index">卡片編號 {{cardId}}</div>
+  <div class="show-number">點擊次數 {{cardtotalCount}}</div>
+
+  <div class="btn-box">
+    <button class="btn-click" (click)="addClickCount()">點擊</button>
+    <button class="btn-remove" (click)="removeCard()">移除本張卡片</button>
+  </div>
+
+
+</div>
